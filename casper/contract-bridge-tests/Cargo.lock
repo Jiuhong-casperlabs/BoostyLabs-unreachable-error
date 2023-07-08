@@ -105,7 +105,7 @@ dependencies = [
 [[package]]
 name = "casper-contract"
 version = "1.4.4"
-source = "git+ssh://git@github.com/ElusiveMori/casper-node.git?rev=06ad2300310587186f16bc4acaef94efcc4fc8f7#06ad2300310587186f16bc4acaef94efcc4fc8f7"
+source = "git+https://github.com/Jiuhong-casperlabs/casper-node.git?rev=06ad2300310587186f16bc4acaef94efcc4fc8f7#06ad2300310587186f16bc4acaef94efcc4fc8f7"
 dependencies = [
  "casper-types",
  "hex_fmt",
@@ -114,7 +114,7 @@ dependencies = [
 [[package]]
 name = "casper-engine-test-support"
 version = "2.2.0"
-source = "git+ssh://git@github.com/ElusiveMori/casper-node.git?rev=06ad2300310587186f16bc4acaef94efcc4fc8f7#06ad2300310587186f16bc4acaef94efcc4fc8f7"
+source = "git+https://github.com/Jiuhong-casperlabs/casper-node.git?rev=06ad2300310587186f16bc4acaef94efcc4fc8f7#06ad2300310587186f16bc4acaef94efcc4fc8f7"
 dependencies = [
  "casper-execution-engine",
  "casper-hashing",
@@ -132,7 +132,7 @@ dependencies = [
 [[package]]
 name = "casper-execution-engine"
 version = "2.0.0"
-source = "git+ssh://git@github.com/ElusiveMori/casper-node.git?rev=06ad2300310587186f16bc4acaef94efcc4fc8f7#06ad2300310587186f16bc4acaef94efcc4fc8f7"
+source = "git+https://github.com/Jiuhong-casperlabs/casper-node.git?rev=06ad2300310587186f16bc4acaef94efcc4fc8f7#06ad2300310587186f16bc4acaef94efcc4fc8f7"
 dependencies = [
  "anyhow",
  "base16",
@@ -174,7 +174,7 @@ dependencies = [
 [[package]]
 name = "casper-hashing"
 version = "1.4.3"
-source = "git+ssh://git@github.com/ElusiveMori/casper-node.git?rev=06ad2300310587186f16bc4acaef94efcc4fc8f7#06ad2300310587186f16bc4acaef94efcc4fc8f7"
+source = "git+https://github.com/Jiuhong-casperlabs/casper-node.git?rev=06ad2300310587186f16bc4acaef94efcc4fc8f7#06ad2300310587186f16bc4acaef94efcc4fc8f7"
 dependencies = [
  "base16",
  "blake2",
@@ -191,7 +191,7 @@ dependencies = [
 [[package]]
 name = "casper-types"
 version = "1.5.0"
-source = "git+ssh://git@github.com/ElusiveMori/casper-node.git?rev=06ad2300310587186f16bc4acaef94efcc4fc8f7#06ad2300310587186f16bc4acaef94efcc4fc8f7"
+source = "git+https://github.com/Jiuhong-casperlabs/casper-node.git?rev=06ad2300310587186f16bc4acaef94efcc4fc8f7#06ad2300310587186f16bc4acaef94efcc4fc8f7"
 dependencies = [
  "base16",
  "base64",
