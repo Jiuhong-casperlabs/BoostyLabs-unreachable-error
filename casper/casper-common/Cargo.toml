@@ -6,4 +6,4 @@ edition = "2021"
 
 [dependencies]
 contract-util = { path = "../contract-util", default-features = false }
-casper-types = { git = "https://github.com/rafal-ch/casper-node", branch = "contract_error_dump_on_1_5" }
+casper-types = { git = "https://github.com/Jiuhong-casperlabs/casper-node.git", branch = "contract_error_dump_on_1_5" }

@@ -5,12 +5,12 @@ edition = "2021"
 
 [dependencies]
 base64 = "0.13.0"
-casper-contract = { git = "https://github.com/rafal-ch/casper-node", branch = "contract_error_dump_on_1_5", default-features = false }
-casper-engine-test-support = { git = "https://github.com/rafal-ch/casper-node", branch = "contract_error_dump_on_1_5", features = [
+casper-contract = { git = "https://github.com/Jiuhong-casperlabs/casper-node.git", branch = "contract_error_dump_on_1_5", default-features = false }
+casper-engine-test-support = { git = "https://github.com/Jiuhong-casperlabs/casper-node.git", branch = "contract_error_dump_on_1_5", features = [
   "test-support",
 ] }
-casper-execution-engine = { git = "https://github.com/rafal-ch/casper-node", branch = "contract_error_dump_on_1_5" }
-casper-types = { git = "https://github.com/rafal-ch/casper-node", branch = "contract_error_dump_on_1_5" }
+casper-execution-engine = { git = "https://github.com/Jiuhong-casperlabs/casper-node.git", branch = "contract_error_dump_on_1_5" }
+casper-types = { git = "https://github.com/Jiuhong-casperlabs/casper-node.git", rev = "06ad2300310587186f16bc4acaef94efcc4fc8f7" }
 k256 = { version = "0.10.4", features = ["pem"] }
 base16 = { version = "0.2.1", default-features = false }
 
