@@ -17,5 +17,5 @@ anyhow = "1.0.0"
 thiserror = "1.0.0"
 tonic = "0.8"
 
-casper-types = { git = "https://github.com/Jiuhong-casperlabs/casper-node.git", rev = "06ad2300310587186f16bc4acaef94efcc4fc8f7", optional = true }
+casper-types = { git = "https://github.com/Jiuhong-casperlabs/casper-node.git", branch = "contract_error_dump_on_1_5", optional = true }
 primitive-types = { version = "0.11.1", optional = true }
